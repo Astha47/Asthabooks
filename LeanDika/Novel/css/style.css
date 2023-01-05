@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: rgb(48, 77, 78);
+}
+
+.header_dalam{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(219, 144, 165);
+    margin-right: 5cm;
+}
+
+.kontainer_logo{
+    height: 100%;
+    display: table;
+    float: left;
+    margin-left: 30px;
+}
+
+.kontainer_logo h1{
+    color: rgb(255, 255, 255);
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.navigasi{
+    float: right;
+    height: 100%;
+    font-family: 'Montserrat';
+}
+
+.navigasi a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigasi li{
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(48, 77, 78);
+}
+
+.index{
+	min-height: fit-content;
+    background-color: white;
+	width: 1000px;
+	margin:auto;
+	padding-top: 50px;
+    font-family: Arial;
+}
+
+.Page_Navigation{
+    height: 100px;
+    background-color: rgb(219, 144, 165);
+}
+
+.index .title{
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.index .isi{
+    padding: 0in;
+    margin-top: 50px;
+	font-family: sans-serif;
+    text-align: justify;
+	line-height: 2;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.footer{
+    min-height: 150px;
+    ;
+    display: block;
+    background-color: rgb(48, 77, 78);
+    width: 100%;
+}
+
+.blankblock{
+    min-height: 100px;
+}
+
+.iconbookmark{
+    width: 100%;
+    height: 50%;
+    background: url('bookmark.png') no-repeat center;
+    background-size: contain;
+}
+
+.back{
+    width: 90px;
+    min-height: 100px;
+    background-color: rgb(48, 77, 78);
+    float: left;
+    transition: all ease-in .2s;
+}
+.back:hover{
+    background-color: rgb(59, 95, 97) ;
+    transition: all ease-in .2s;
+}
+
+.next{
+    width: 90px;
+    min-height: 100px;
+    background-color: rgb(48, 77, 78);
+    float: right;
+    transition: all ease-in .2s;
+}
+.next:hover{
+    background-color: rgb(59, 95, 97) ;
+    transition: all ease-in .2s;
+}
+
+.navcenter{
+    width: 910px;
+    min-height: 100px;
+    background-color: rgb(219, 144, 165);
+    float: right;
+    
+}
+
+.mainnav{
+    width: px;
+    min-height: 100px;
+    background-color: rgb(219, 144, 165);
+    float: left;
+}
+
+.previousicon{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+.previousicon img{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    
+}
+
+.nexticon{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+.nexticon img{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    
+}
+
+.pagelist{
+    margin-left: 60px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 18pt;
+    font-family: sans-serif;
+    font-weight: 740;
+    color: rgb(255, 255, 255);
+    size: 120%;   
+}
+
+.toIndexButton{
+    background-color: rgb(48, 77, 78);
+    display: flex;
+    align-items: center;
+    padding:15px 30px;
+    align-content: center;
+    transition: all ease-in .2s;
+}
+.toIndexButton:hover{
+    background-color: rgb(64, 100, 102);
+    display: flex;
+    align-items: center;
+    padding:15px 30px;
+    align-content: center;
+    transition: all ease-in .2s;
+}
+
+.toIndexButton a{
+    color: rgb(255, 255, 255);
+}
+
+
+.emptyblock{
+    min-height: 50px;
+}
+
+p {
+    text-indent: 70px;
+}
+
+.baganText{
+    margin-top: 50px;
+    font-size: min(max(20px,5vw),30px);
+}

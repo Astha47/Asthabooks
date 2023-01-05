@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .header {
+            width: 100%;
+            height: 100px;
+            display: block;
+            background-color: cadetblue;
+        }
+
+        .header_dalam {
+            width: 1000px;
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+            background-color: rgb(128, 199, 199);
+            margin-right: 5cm;
+
+        }
+
+        .kontainer_logo {
+            height: 100%;
+            display: table;
+            float: left;
+            margin-left: 30px;
+        }
+
+        .kontainer_logo h1 {
+            color: rgb(255, 255, 255);
+            height: 100%;
+            display: table-cell;
+            vertical-align: middle;
+            font-family: 'Montserrat';
+            font-size: 32px;
+            font-weight: 200;
+        }
+
+        .navigasi {
+            float: right;
+            height: 100%;
+            font-family: 'Montserrat';
+        }
+
+        .navigasi a {
+            height: 100%;
+            display: table;
+            float: left;
+            padding: 0px 20px;
+        }
+
+        .navigasi li {
+            display: table-cell;
+            vertical-align: middle;
+            color: rgb(48, 77, 78);
+        }
+
+        .section {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #ddd;
+        }
+
+        .container {
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding-top: 100px;
+        }
+
+        .content-section {
+            float: left;
+            width: 55%;
+        }
+
+        .image-section {
+            float: right;
+            width: 35%;
+            margin-left: 5%;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content-section .title {
+            text-transform: uppercase;
+            font-size: 28px;
+            font-family: sans-serif;
+        }
+
+        .content-section .content h3 {
+            margin-top: 20px;
+            color: #5d5d5d;
+            font-size: 21px;
+            font-family: sans-serif;
+        }
+
+        .content-section .content p {
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+
+        .content-section .content .button {
+            margin-top: 30px;
+        }
+
+        .content-section .content .button a {
+            background-color: #3d3d3d;
+            padding: 12px 40px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 25px;
+            letter-spacing: 1.5px;
+        }
+
+        .content-section .content .button a:hover {
+            background-color: #a52a2a;
+            color: #fff;
+        }
+
+        .content-section .social {
+            margin: 40px 40px;
+        }
+
+        .content-section .social i {
+            color: #a52a2a;
+            font-size: 30px;
+            padding: 0px 10px;
+        }
+
+        .content-section .social i:hover {
+            color: #3d3d3d;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 80%;
+                display: block;
+                margin: auto;
+                padding-top: 50px;
+            }
+
+            .content-section {
+                float: none;
+                width: 100%;
+                display: block;
+                margin: auto;
+            }
+
+            .image-section {
+                float: none;
+                width: 60%;
+
+            }
+
+            .image-section img {
+                width: 60%;
+                height: auto;
+                display: block;
+                margin: auto;
+            }
+
+            .content-section .title {
+                text-align: center;
+                font-size: 19px;
+            }
+
+            .content-section .content .button {
+                text-align: center;
+            }
+
+            .content-section .content .button a {
+                padding: 9px 30px;
+            }
+
+            .content-section .social {
+                text-align: center;
+            }
+
+        }
+    </style>
+
+
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>About</title>
+    <link rel="icon" href="book.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header">
+        <div class="kontainer_logo">
+            <h1>Personal<b><span>Library</span></b></h1>
+        </div>
+        <div class="header_dalam">
+            <ul class="navigasi">
+                <a href="../main/index.html">
+                    <li><b>Home</b></li>
+                </a>
+                <a href="https://www.linkedin.com/in/anas-fathurrahman-9481741b7/">
+                    <li><b>My LinkedIn</b></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About Me</h1>
+                </div>
+                <div class="content">
+                    <h3>Anas Fathurrahman</h3>
+                    <p>Currently student at the Bandung Institute of Technology, School of Electrical and Informatics Engineering. interested in science, engineering, management, and sustainable business. Have a career record in academics and organizations. Constantly strive to learn new things adaptively, speak openly, and expand acquaintances.</p>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/anas-fathurrahman-9481741b7/"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/anas_fathurrahman"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="image/PP Jamal.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
