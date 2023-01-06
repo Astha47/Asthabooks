@@ -259,11 +259,13 @@
 
 .sidebar.hide .sbmain .list-item .desc-sb{
     display: none;
+    transition: all ease-in-out 0.2s;
     
 }
 
 .sidebar.hide .sbmain .list-item-active .desc-sb{
     display: none;
+    transition: all ease-in-out 0.2s;
     
 }
 
@@ -277,7 +279,7 @@
     background-color: #d9aeae;
     border-radius: 12px;
     box-sizing: border-box;
-    transition: all ease-in-out 0.2s;
+    
 }
 
 .sidebar.hide .sbmain .list-item-active{
@@ -290,7 +292,7 @@
     background-color: rgb(231, 225, 225);;
     border-radius: 12px;
     box-sizing: border-box;
-    transition: all ease-in-out 0.2s;
+    
 }
 
 .sbheader{
@@ -301,14 +303,14 @@
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 100px;
-    transition: all ease-in-out 0.2s;
+    
 }
 
 .menu-button {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0px;
-    transition: all ease-in-out 0.2s;
+    
 }
 
 .list-item{
@@ -321,7 +323,7 @@
     background-color: #d9aeae;
     border-radius: 12px;
     box-sizing: border-box;
-    transition: all ease-in-out 0.2s;
+    
 
 }
 
@@ -335,7 +337,7 @@
     background-color: rgb(231, 225, 225);
     border-radius: 12px;
     box-sizing: border-box;
-    transition: all ease-in-out 0.2s;
+    
 }
 
 
@@ -360,6 +362,7 @@
 
 .list-item .desc-sb{
     font-family: 'Ubuntu';
+    display: relative;
     font-weight: 600;
     font-size: 25pt;
     text-align: left;
@@ -367,11 +370,14 @@
     margin-left: 5px;
     color: #302c2c;
     vertical-align: middle;
+    transition: all ease-in .1s;
+    transition-delay: .1s;
 }
 
 
 .list-item-active .desc-sb{
     font-family: 'Ubuntu';
+    display: relative;
     font-weight: 600;
     font-size: 25pt;
     text-align: left;
@@ -379,6 +385,8 @@
     margin-left: 5px;
     color: #302c2c;
     vertical-align: middle;
+    transition: all ease-in .1s;
+    transition-delay: .1s;
 }
 
 
