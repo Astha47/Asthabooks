@@ -11,10 +11,6 @@
 </head>
 
 <body style="background-color: rgb(44, 44, 44);">
-
-    <script src="js/script.js"></script>
-
-
     <div class="header">
         <div class="kontainer_logo">
             <h1>Personal<b><span>Library</span></b>(Testing)</h1>
@@ -32,6 +28,7 @@
     </div>
 
     <div class="body">
+        
         <div class="sidebar">
             <div class="sbheader">
                 <div class="list-itemhead">
@@ -42,6 +39,14 @@
 
                 </div>
             </div>
+
+            <div id="menu-button">
+                <input type="checkbox" id="menu-checkbox">
+                <label for="menu-checkbox" id="menu-label">
+                    <div class="hamburger" id="hamburger"></div>
+                </label>
+            </div>
+
             <div class="sbmain">
                 <a href="#">
                     <div class="list-item-active">
@@ -73,12 +78,7 @@
 
         <div class="MainContainer">
 
-            <div class="menu-button">
-                <input type="checkbox" id="menu-checkbox">
-                <label for="menu-checkbox" id="menu-label">
-                    <div class="hamburger"></div>
-                </label>
-            </div>
+            
 
             <div class="MainTitle">
                 Books
@@ -244,7 +244,7 @@
         </div>
 
     </div>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
