@@ -275,10 +275,13 @@
     flex-direction: row;
     padding: 12px 10px;
     line-height: 16px;
-    margin-bottom: 2vw;
+    margin-bottom: 30px;
     background-color: #d9aeae;
     border-radius: 12px;
     box-sizing: border-box;
+    overflow: hidden;
+    max-height: 88px;
+    transition: all ease-in .1s;
     
 }
 
@@ -288,10 +291,13 @@
     flex-direction: row;
     padding: 12px 10px;
     line-height: 16px;
-    margin-bottom: 2vw;
+    margin-bottom: 30px;
     background-color: rgb(231, 225, 225);;
     border-radius: 12px;
     box-sizing: border-box;
+    overflow: hidden;
+    max-height: 88px;
+    transition: all ease-in .1s;
     
 }
 
@@ -319,10 +325,12 @@
     flex-direction: row;
     padding: 12px 10px;
     line-height: 16px;
-    margin-bottom: 2vw;
+    margin-bottom: 30px;
     background-color: #d9aeae;
     border-radius: 12px;
     box-sizing: border-box;
+    max-height: 88px;
+    overflow: hidden;
     
 
 }
@@ -333,10 +341,12 @@
     flex-direction: row;
     padding: 12px 10px;
     line-height: 16px;
-    margin-bottom: 2vw;
+    margin-bottom: 30px;
     background-color: rgb(231, 225, 225);
     border-radius: 12px;
     box-sizing: border-box;
+    max-height: 88px;
+    overflow: hidden;
     
 }
 
