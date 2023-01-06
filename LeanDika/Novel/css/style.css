@@ -185,6 +185,7 @@
 }
 
 .toIndexButton{
+    border-radius: 25px;
     background-color: rgb(48, 77, 78);
     display: flex;
     align-items: center;
