@@ -321,6 +321,7 @@
     background-color: #d9aeae;
     border-radius: 12px;
     box-sizing: border-box;
+    transition: all ease-in-out 0.2s;
 
 }
 
@@ -334,6 +335,7 @@
     background-color: rgb(231, 225, 225);
     border-radius: 12px;
     box-sizing: border-box;
+    transition: all ease-in-out 0.2s;
 }
 
 
