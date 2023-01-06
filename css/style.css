@@ -259,12 +259,12 @@
 
 .sidebar.hide .sbmain .list-item .desc-sb{
     display: none;
-    transition: all ease-in-out 0.2s;
+    
 }
 
 .sidebar.hide .sbmain .list-item-active .desc-sb{
     display: none;
-    transition: all ease-in-out 0.2s;
+    
 }
 
 .sidebar.hide .sbmain .list-item{
