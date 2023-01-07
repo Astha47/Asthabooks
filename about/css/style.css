@@ -94,10 +94,19 @@
 	float: right;
 	width: 35%;
 	margin-left: 5%;
+	
 }
+
+.imageBorder{
+	max-width: fit-content;
+	overflow: hidden;
+	border-radius: 100px;
+}
+
 .image-section img{
 	width: 100%;
 	height: auto;
+	
 }
 .content-section .title{
 	text-transform: uppercase;
