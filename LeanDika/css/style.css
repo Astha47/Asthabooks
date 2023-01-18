@@ -94,8 +94,9 @@
 }
 
 .image-section-secondary img{
-	width: 100%;
+	width: 80%;
 	height: auto;
+	margin: auto;
 }
 .content-section .title{
 	text-transform: uppercase;
@@ -135,7 +136,8 @@
 .button a{
 	font-family: Arial;
 	background-color: #3d3d3d;
-	padding:12px 40px;
+	padding:15px 50px;
+	border-radius: 15px;
 	text-decoration: none;
 	color:#fff;
 	font-size: 25px;
@@ -158,6 +160,7 @@
 	margin-top: 50px;
 	font-size: 16px;
 	font-style: italic;
+	text-align: justify;
 }
 
 @media (max-width: 1000px){
@@ -176,6 +179,12 @@
 	.content-section .title{
 		font-size: 40px;
 		text-align: center;
+	}
+
+	.BlockBawah{
+		display: block;
+		min-height: 250px;
+		width: 100%;
 	}
 
 }
