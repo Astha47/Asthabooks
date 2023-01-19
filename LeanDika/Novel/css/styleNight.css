@@ -127,7 +127,7 @@ body{
 .next{
     width: 90px;
     min-height: 100px;
-    background-color: rgb(48, 77, 78);
+    background-color: #5e4a6d;
     float: right;
     transition: all ease-in .2s;
 }
