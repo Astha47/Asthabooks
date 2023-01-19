@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+	background-color: #2c0049;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #451764;
+}
+
+.header_dalam{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #57386c;
+    margin-right: 5cm;
+}
+
+.kontainer_logo{
+    height: 100%;
+    display: table;
+    float: left;
+    margin-left: 30px;
+}
+
+.kontainer_logo h1{
+    color: rgb(255, 255, 255);
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.navigasi{
+    float: right;
+    height: 100%;
+    font-family: 'Montserrat';
+}
+
+.navigasi a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigasi li{
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
+
+
+.sinopsis{
+	min-height: fit-content;
+	width: 80%;
+	margin:auto;
+	padding-top: 100px;
+}
+
+.wadah{
+	min-height:min-content;
+}
+
+.content-section{
+	float: left;
+	width: 50%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+	margin-top:133px;
+    
+}
+
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+
+.image-section-secondary{
+	display: none;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    
+}
+
+.image-section-secondary img{
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: sans-serif;
+	margin-top: 25px;
+	color: rgb(231, 228, 228);
+}
+.content-section .content h3{
+	margin-top: 25px;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: rgb(231, 228, 228);
+}
+.content-section .content p{
+	margin-top: 30px;
+	font-family: sans-serif;
+	font-size: 22px;
+	line-height: 1.5;
+    text-align: justify;
+	color: rgb(231, 228, 228);
+}
+
+.index{
+	margin-top: auto;
+	width: 100%;
+	min-block-size: fit-content;
+}
+
+.judulindex{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.button{
+	margin-top: 120px;
+}
+.button a{
+	font-family: Arial;
+	background-color: #565178;
+	padding:15px 50px;
+	border-radius: 15px;
+	text-decoration: none;
+	color:#fff;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+	transition: all ease-in .2s;
+}
+.button a:hover{
+	background-color: #7c75a7;
+	color:#fff;
+	transition: all ease-in .2s;
+}
+
+.BlockBawah{
+	display: block;
+	min-height: 100px;
+	width: 100%;
+}
+
+.alert{
+	margin-top: 50px;
+	font-size: 16px;
+	font-style: italic;
+	text-align: justify;
+	color: rgb(231, 228, 228)
+}
+
+@media (max-width: 1000px){
+	.image-section{
+		display: none;
+	}
+
+	.content-section{
+		width: 100%;
+	}
+
+	.image-section-secondary{
+		display: flex;
+		margin-top: 80px;
+		margin-bottom: 120px;
+	}
+
+	.content-section .title{
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.BlockBawah{
+		display: block;
+		min-height: 250px;
+		width: 100%;
+	}
+
+}
