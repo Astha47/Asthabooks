@@ -16,7 +16,7 @@ toggle.addEventListener('click',function(){
         body.style.transition = '2s';
 
     }else{
-        body.style.backgroundColor ='#2c0049';
+        body.style.backgroundColor ='#0f0118';
         linkbutton.href = "Index/indexNight.html";
         body.style.transition = '2s';
 

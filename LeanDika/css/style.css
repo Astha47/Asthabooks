@@ -21,7 +21,7 @@ body{
     width: 100%;
     height: 100px;
     display: block;
-    background-color: #451764;
+    background-color: #140634;
 	transition: 2s;
 }
 
@@ -40,7 +40,7 @@ body{
     height: 100%;
     display: block;
     margin: 0 auto;
-    background-color: #57386c;
+    background-color: #26144e;
     margin-right: 5cm;
 	transition: 2s;
 }
@@ -290,6 +290,7 @@ body{
 	color: #fff;
 	border-radius: 20px;
 	transition: 2s;
+	overflow: hidden;
 }
 
 .DNbutton img{
@@ -299,6 +300,7 @@ body{
 }
 
 .DNbuttonNight{
+	overflow: hidden;
 	cursor: pointer;
 	margin: auto;
 	padding: 15px 25px;

@@ -6,14 +6,14 @@
 }
 
 body{
-    background-color: #2c0049;
+    background-color: #0f0118;
 }
 
 .header{
     width: 100%;
     height: 100px;
     display: block;
-    background-color: #451764;
+    background-color: #140634;
 }
 
 .header_dalam{
@@ -21,7 +21,7 @@ body{
     height: 100%;
     display: block;
     margin: 0 auto;
-    background-color: #57386c;
+    background-color: #26144e;
     margin-right: 5cm;
 }
 
@@ -58,12 +58,12 @@ body{
 .navigasi li{
     display: table-cell;
     vertical-align: middle;
-    color: rgb(48, 77, 78);
+    color: rgb(255, 255, 255);
 }
 
 .index{
 	min-height: fit-content;
-    background-color: rgb(22, 18, 50);
+    background-color: rgb(6, 4, 16);
 	width: 1000px;
 	margin:auto;
 	padding-top: 50px;
@@ -72,7 +72,7 @@ body{
 
 .Page_Navigation{
     height: 100px;
-    background-color: rgb(219, 144, 165);
+    background-color: #26144e;
 }
 
 .index .title{
@@ -97,7 +97,7 @@ body{
     min-height: 150px;
     ;
     display: block;
-    background-color: #451764;
+    background-color: #000000;
     width: 100%;
 }
 
@@ -119,6 +119,8 @@ body{
     float: left;
     transition: all ease-in .2s;
 }
+
+
 .back:hover{
     background-color: #5e4a6d ;
     transition: all ease-in .2s;
@@ -127,19 +129,20 @@ body{
 .next{
     width: 90px;
     min-height: 100px;
-    background-color: #5e4a6d;
+    background-color: #451764;
     float: right;
     transition: all ease-in .2s;
 }
+
 .next:hover{
-    background-color: rgb(59, 95, 97) ;
+    background-color: #5e4a6d ;
     transition: all ease-in .2s;
 }
 
 .navcenter{
     width: 910px;
     min-height: 100px;
-    background-color: #57386c;
+    background-color: #26144e;
     float: right;
     
 }
@@ -155,6 +158,9 @@ body{
     display: flex;
     align-items: center;
     vertical-align: middle;
+    background-color: rgb(215, 182, 252);
+    -webkit-mask: url(../../image/previous.svg) no-repeat center;
+    mask: url(../../image/previous.svg) no-repeat center;
 }
 .previousicon img{
     width: 80%;
@@ -166,8 +172,11 @@ body{
 .nexticon{
     min-height: 100px;
     display: flex;
+    background-color: rgb(215, 182, 252);
     align-items: center;
     vertical-align: middle;
+    -webkit-mask: url(../../image/next.svg) no-repeat center;
+    mask: url(../../image/next.svg) no-repeat center;
 }
 .nexticon img{
     width: 80%;
@@ -191,7 +200,7 @@ body{
 
 .toIndexButton{
     border-radius: 25px;
-    background-color: #221b4b;
+    background-color: #140634;
     display: flex;
     align-items: center;
     padding:15px 30px;

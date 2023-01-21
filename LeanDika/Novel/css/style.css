@@ -150,6 +150,9 @@
     display: flex;
     align-items: center;
     vertical-align: middle;
+    background-color: rgb(219, 144, 165);
+    -webkit-mask: url(../../image/previous.svg) no-repeat center;
+    mask: url(../../image/previous.svg) no-repeat center;
 }
 .previousicon img{
     width: 80%;
@@ -163,6 +166,9 @@
     display: flex;
     align-items: center;
     vertical-align: middle;
+    background-color: rgb(219, 144, 165);
+    -webkit-mask: url(../../image/next.svg) no-repeat center;
+    mask: url(../../image/next.svg) no-repeat center;
 }
 .nexticon img{
     width: 80%;
