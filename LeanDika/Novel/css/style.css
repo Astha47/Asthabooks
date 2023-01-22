@@ -10,6 +10,7 @@
     height: 100px;
     display: block;
     background-color: rgb(48, 77, 78);
+    transition: 2s;
 }
 
 .header_dalam{
@@ -19,6 +20,7 @@
     margin: 0 auto;
     background-color: rgb(219, 144, 165);
     margin-right: 5cm;
+    transition: 2s;
 }
 
 .kontainer_logo{
@@ -36,6 +38,7 @@
     font-family: 'Montserrat';
     font-size: 32px;
     font-weight: 200;
+    transition: 2s;
 }
 
 .navigasi{
@@ -55,6 +58,7 @@
     display: table-cell;
     vertical-align: middle;
     color: rgb(48, 77, 78);
+    transition: 2s;
 }
 
 .index{
@@ -64,17 +68,20 @@
 	margin:auto;
 	padding-top: 50px;
     font-family: Arial;
+    transition: 2s;
 }
 
 .Page_Navigation{
     height: 100px;
     background-color: rgb(219, 144, 165);
+    transition: 2s;
 }
 
 .index .title{
     margin-top: 100px;
     font-size: 25px;
     text-align: center;
+    transition: 2s;
 }
 
 .index .isi{
@@ -85,6 +92,7 @@
 	line-height: 2;
     margin-left: 70px;
     margin-right: 70px;
+    transition: 2s;
 }
 
 .footer{
@@ -93,6 +101,7 @@
     display: block;
     background-color: rgb(48, 77, 78);
     width: 100%;
+    transition: 2s;
 }
 
 .blankblock{
@@ -112,10 +121,12 @@
     background-color: rgb(48, 77, 78);
     float: left;
     transition: all ease-in .2s;
+    transition: 2s;
 }
 .back:hover{
     background-color: rgb(59, 95, 97) ;
     transition: all ease-in .2s;
+    
 }
 
 .next{
@@ -135,6 +146,7 @@
     min-height: 100px;
     background-color: rgb(219, 144, 165);
     float: right;
+    transition: 2s;
     
 }
 
@@ -143,6 +155,7 @@
     min-height: 100px;
     background-color: rgb(219, 144, 165);
     float: left;
+    transition: 2s;
 }
 
 .previousicon{
@@ -153,6 +166,7 @@
     background-color: rgb(219, 144, 165);
     -webkit-mask: url(../../image/previous.svg) no-repeat center;
     mask: url(../../image/previous.svg) no-repeat center;
+    transition: 2s;
 }
 .previousicon img{
     width: 80%;
@@ -169,6 +183,7 @@
     background-color: rgb(219, 144, 165);
     -webkit-mask: url(../../image/next.svg) no-repeat center;
     mask: url(../../image/next.svg) no-repeat center;
+    transition: 2s;
 }
 .nexticon img{
     width: 80%;
@@ -187,7 +202,8 @@
     font-family: sans-serif;
     font-weight: 740;
     color: rgb(255, 255, 255);
-    size: 120%;   
+    size: 120%; 
+    transition: 2s; 
 }
 
 .toIndexButton{
@@ -198,6 +214,7 @@
     padding:15px 30px;
     align-content: center;
     transition: all ease-in .2s;
+    transition: 2s;
 }
 .toIndexButton:hover{
     background-color: rgb(64, 100, 102);
@@ -224,4 +241,244 @@ p {
 .baganText{
     margin-top: 50px;
     font-size: min(max(20px,5vw),30px);
+}
+
+.DNbutton{
+	cursor: pointer;
+	margin: auto;
+	padding: 15px 25px;
+	width: 30px;
+	height: 30px;
+	background-color: #3d3d3d;
+	color: #fff;
+	border-radius: 20px;
+	transition: 2s;
+	overflow: hidden;
+    margin-left: 400px ;
+}
+
+.DNbutton img{
+	height: 30px;
+	
+	
+}
+
+.DNbuttonNight{
+	overflow: hidden;
+	cursor: pointer;
+	margin: auto;
+	padding: 15px 25px;
+	width: 30px;
+	height: 30px;
+	background-color: #565178;
+	color: #fff;
+	border-radius: 20px;
+	transition: 2s;
+    margin-left: 400px ;
+}
+
+.DNbuttonNight img{
+	height: 30px;
+}
+
+/* Night Style */
+
+.headerNight{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #140634;
+    transition: 2s;
+}
+
+.header_dalamNight{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #26144e;
+    margin-right: 5cm;
+    transition: 2s;
+}
+
+.kontainer_logoNight h1{
+    color: rgb(255, 255, 255);
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+    transition: 2s;
+}
+
+.navigasiNight{
+    float: right;
+    height: 100%;
+    font-family: 'Montserrat';
+}
+
+.navigasiNight a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigasiNight li{
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    transition: 2s;
+}
+
+.indexNight{
+	min-height: fit-content;
+    background-color: rgb(6, 4, 16);
+	width: 1000px;
+	margin:auto;
+	padding-top: 50px;
+    font-family: Arial;
+}
+
+.Page_NavigationNight{
+    height: 100px;
+    background-color: #26144e;
+    transition: 2s;
+}
+
+.indexNight .title{
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    transition: 2s;
+}
+
+.indexNight .isi{
+    padding: 0in;
+    margin-top: 50px;
+	font-family: sans-serif;
+    text-align: justify;
+	line-height: 2;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: #fff;
+    transition: 2s;
+}
+
+.footerNight{
+    min-height: 150px;
+    ;
+    display: block;
+    background-color: #000000;
+    width: 100%;
+    transition: 2s;
+}
+
+.backNight{
+    width: 90px;
+    min-height: 100px;
+    background-color: #451764;
+    float: left;
+    transition: all ease-in .2s;
+    transition: 2s;
+}
+
+
+.backNight:hover{
+    background-color: #5e4a6d ;
+    transition: all ease-in .2s;
+}
+
+.nextNight{
+    width: 90px;
+    min-height: 100px;
+    background-color: #451764;
+    float: right;
+    transition: all ease-in .2s;
+}
+
+.nextNight:hover{
+    background-color: #5e4a6d ;
+    transition: all ease-in .2s;
+}
+
+.navcenterNight{
+    width: 910px;
+    min-height: 100px;
+    background-color: #26144e;
+    float: right;
+    
+}
+
+.previousiconNight{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    background-color: rgb(215, 182, 252);
+    -webkit-mask: url(../../image/previous.svg) no-repeat center;
+    mask: url(../../image/previous.svg) no-repeat center;
+    transition: 2s;
+}
+.previousiconNight img{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    
+}
+
+.nexticonNight{
+    min-height: 100px;
+    display: flex;
+    background-color: rgb(215, 182, 252);
+    align-items: center;
+    vertical-align: middle;
+    -webkit-mask: url(../../image/next.svg) no-repeat center;
+    mask: url(../../image/next.svg) no-repeat center;
+    transition: 2s;
+}
+.pagelistNight{
+    margin-left: 60px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 18pt;
+    font-family: sans-serif;
+    font-weight: 740;
+    color: rgb(255, 255, 255);
+    size: 120%;
+    transition: 2s;
+}
+
+.toIndexButtonNight{
+    border-radius: 25px;
+    background-color: #140634;
+    display: flex;
+    align-items: center;
+    padding:15px 30px;
+    align-content: center;
+    transition: all ease-in .2s;
+}
+.toIndexButtonNight:hover{
+    background-color: #363349;
+    display: flex;
+    align-items: center;
+    padding:15px 30px;
+    align-content: center;
+    transition: all ease-in .2s;
+}
+
+.toIndexButtonNight a{
+    color: rgb(255, 255, 255);
+}
+
+.mainnavNight{
+    width: px;
+    min-height: 100px;
+    background-color: #26144e;
+    float: left;
+    transition: 2s;
 }

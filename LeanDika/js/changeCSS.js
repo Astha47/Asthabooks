@@ -7,6 +7,7 @@ const content_section = document.getElementById('content-section');
 const button = document.getElementById('button');
 const alertid = document.getElementById('alert');
 var linkbutton = document.getElementById('linkbutton');
+var icon = document.getElementById('icon')
 
 toggle.addEventListener('click',function(){
     this.classList.toggle('DNbuttonNight');
@@ -14,11 +15,13 @@ toggle.addEventListener('click',function(){
         body.style.backgroundColor ='rgb(255, 229, 229)';
         linkbutton.href = "Index/index.html";
         body.style.transition = '2s';
+        icon.src = "../img/sunny.png";
 
     }else{
         body.style.backgroundColor ='#0f0118';
         linkbutton.href = "Index/indexNight.html";
         body.style.transition = '2s';
+        icon.src = "../img/night-mode.png";
 
     }
     header.classList.toggle('headerNight');
