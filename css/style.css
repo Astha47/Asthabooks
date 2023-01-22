@@ -196,6 +196,7 @@
 .intro h1{
     margin: 10px;
     font-size: 40px;
+    font-weight: 500;
 }
 
 .intro p{
@@ -229,6 +230,7 @@
     font-size: 4vw;
     text-align: center;
     margin-top: 3vw;
+    font-weight: 800;
 }
 
 .MainContainer{

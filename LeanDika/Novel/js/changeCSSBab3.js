@@ -28,6 +28,8 @@ var nexta1 = document.getElementById('nexta1')
 var nexta2 = document.getElementById('nexta2')
 var backa1 = document.getElementById('backa1')
 var backa2 = document.getElementById('backa2')
+var toIndexLink1 = document.getElementById('toIndexLink1')
+var toIndexLink2 = document.getElementById('toIndexLink2')
 
 
 toggle.addEventListener('click',function () {
@@ -36,19 +38,23 @@ toggle.addEventListener('click',function () {
         body.style.backgroundColor ='rgb(255, 229, 229)';
         body.style.transition = '2s';
         icon.src = "../../img/night-mode.png";
-        nexta1.href = "Bab4.html"
-        nexta2.href = "Bab4.html"
-        backa1.href = "Bab2.html"
-        backa2.href = "Bab2.html"
+        nexta1.href = "Bab4.html";
+        nexta2.href = "Bab4.html";
+        backa1.href = "Bab2.html";
+        backa2.href = "Bab2.html";
+        toIndexLink1.href = "../Index/index.html";
+        toIndexLink2.href = "../Index/index.html";
         
     }else{
         body.style.backgroundColor ='#0f0118';
         body.style.transition = '2s';
         icon.src = "../../img/sunny.png";
-        nexta1.href = "Bab4Night.html"
-        nexta2.href = "Bab4Night.html"
-        backa1.href = "Bab2Night.html"
-        backa2.href = "Bab2Night.html"
+        nexta1.href = "Bab4Night.html";
+        nexta2.href = "Bab4Night.html";
+        backa1.href = "Bab2Night.html";
+        backa2.href = "Bab2Night.html";
+        toIndexLink1.href = "../Index/indexNight.html";
+        toIndexLink2.href = "../Index/indexNight.html";
        
     }
     header.classList.toggle('headerNight');

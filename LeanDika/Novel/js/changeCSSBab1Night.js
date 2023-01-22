@@ -33,52 +33,48 @@ var toIndexLink2 = document.getElementById('toIndexLink2')
 
 
 toggle.addEventListener('click',function () {
-    this.classList.toggle('DNbuttonNight');
+    this.classList.toggle('DNbuttonLight');
     if (this.classList.toggle('DNbutton')) {
-        body.style.backgroundColor ='rgb(255, 229, 229)';
-        body.style.transition = '2s';
-        icon.src = "../../img/night-mode.png";
-        nexta1.href = "#";
-        nexta2.href = "#";
-        backa1.href = "Bab3.html";
-        backa2.href = "Bab3.html";
-        toIndexLink1.href = "../Index/index.html";
-        toIndexLink2.href = "../Index/index.html";
-        
-    }else{
         body.style.backgroundColor ='#0f0118';
         body.style.transition = '2s';
         icon.src = "../../img/sunny.png";
-        nexta1.href = "#";
-        nexta2.href = "#";
-        backa1.href = "Bab3Night.html";
-        backa2.href = "Bab3Night.html";
+        nexta1.href = "Bab2Night.html";
+        nexta2.href = "Bab2Night.html";
         toIndexLink1.href = "../Index/indexNight.html";
         toIndexLink2.href = "../Index/indexNight.html";
+        
+    }else{
+        body.style.backgroundColor ='rgb(255, 229, 229)';
+        body.style.transition = '2s';
+        icon.src = "../../img/night-mode.png";
+        nexta1.href = "Bab2.html";
+        nexta2.href = "Bab2.html";
+        toIndexLink1.href = "../Index/index.html";
+        toIndexLink2.href = "../Index/index.html";
        
     }
-    header.classList.toggle('headerNight');
-    header_dalam.classList.toggle('header_dalamNight');
-    index.classList.toggle('indexNight');
-    navigasi.classList.toggle('navigasiNight');
-    Page_Navigation1.classList.toggle('Page_NavigationNight');
-    Page_Navigation2.classList.toggle('Page_NavigationNight');
-    footer.classList.toggle('footerNight');
-    back1.classList.toggle('backNight');
-    back2.classList.toggle('backNight');
-    next1.classList.toggle('nextNight');
-    next2.classList.toggle('nextNight');
-    navcenter1.classList.toggle('navcenterNight');
-    navcenter2.classList.toggle('navcenterNight');
-    previousicon1.classList.toggle('previousiconNight');
-    previousicon2.classList.toggle('previousiconNight');
-    nexticon1.classList.toggle('nexticonNight');
-    nexticon2.classList.toggle('nexticonNight');
-    pagelist1.classList.toggle('pagelistNight');
-    pagelist2.classList.toggle('pagelistNight');
-    mainnav1.classList.toggle('mainnavNight');
-    mainnav2.classList.toggle('mainnavNight');
-    toIndexButton1.classList.toggle('toIndexButtonNight');
-    toIndexButton2.classList.toggle('toIndexButtonNight');
+    header.classList.toggle('headerLight');
+    header_dalam.classList.toggle('header_dalamLight');
+    index.classList.toggle('indexLight');
+    navigasi.classList.toggle('navigasiLight');
+    Page_Navigation1.classList.toggle('Page_NavigationLight');
+    Page_Navigation2.classList.toggle('Page_NavigationLight');
+    footer.classList.toggle('footerLight');
+    back1.classList.toggle('backLight');
+    back2.classList.toggle('backLight');
+    next1.classList.toggle('nextLight');
+    next2.classList.toggle('nextLight');
+    navcenter1.classList.toggle('navcenterLight');
+    navcenter2.classList.toggle('navcenterLight');
+    previousicon1.classList.toggle('previousiconLight');
+    previousicon2.classList.toggle('previousiconLight');
+    nexticon1.classList.toggle('nexticonLight');
+    nexticon2.classList.toggle('nexticonLight');
+    pagelist1.classList.toggle('pagelistLight');
+    pagelist2.classList.toggle('pagelistLight');
+    mainnav1.classList.toggle('mainnavLight');
+    mainnav2.classList.toggle('mainnavLight');
+    toIndexButton1.classList.toggle('toIndexButtonLight');
+    toIndexButton2.classList.toggle('toIndexButtonLight');
 
 })
