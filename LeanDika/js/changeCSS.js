@@ -15,13 +15,13 @@ toggle.addEventListener('click',function(){
         body.style.backgroundColor ='rgb(255, 229, 229)';
         linkbutton.href = "Index/index.html";
         body.style.transition = '2s';
-        icon.src = "../img/sunny.png";
+        icon.src = "../img/night-mode.png";
 
     }else{
         body.style.backgroundColor ='#0f0118';
         linkbutton.href = "Index/indexNight.html";
         body.style.transition = '2s';
-        icon.src = "../img/night-mode.png";
+        icon.src = "../img/sunny.png";
 
     }
     header.classList.toggle('headerNight');
