@@ -164,3 +164,56 @@ body{
     color: white;
 }
 
+@media (max-width: 1000px){
+	.image-section{
+		display: none;
+	}
+
+	.content-section{
+		width: 100%;
+	}
+
+	.content-sectionNight{
+		width: 100%;
+	}
+
+	.image-section-secondary{
+		display: flex;
+		margin-top: 80px;
+		margin-bottom: 120px;
+	}
+
+	.content-section .title{
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.content-sectionNight .title{
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.BlockBawah{
+		display: block;
+		min-height: 250px;
+		width: 100%;
+	}
+
+	.header_dalam{
+        width: 100vw;
+    }
+
+    .navigasi{
+        margin-right: 30px;
+    }
+
+    .index{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 830px){
+    .navigasi{
+        display: none;
+    }
+}
