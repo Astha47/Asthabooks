@@ -9,7 +9,7 @@
     width: 100vw;
     height: 100px;
     display: block;
-    background-color: #494949;
+    background-color: #353d4b;
 }
 
 .header_dalam{
@@ -17,7 +17,7 @@
     height: 100%;
     display: block;
     margin: 0 auto;
-    background-color: #6e6e6e;
+    background-color: #545864;
     margin-right: 5cm;
 }
 
@@ -555,7 +555,6 @@
     .navigasi{
         margin-right: 30px;
     }
-
 }
 
 @media (max-width: 600px){

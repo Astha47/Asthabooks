@@ -209,4 +209,17 @@ body{
 		width: 100%;
 	}
 
+	.header_dalam{
+        width: 100vw;
+    }
+
+    .navigasi{
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .navigasi{
+        display: none;
+    }
 }

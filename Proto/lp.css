@@ -548,18 +548,4 @@
         margin-top: 50px;
     }
 
-    .header_dalam{
-        width: 100vw;
-    }
-
-    .navigasi{
-        margin-right: 30px;
-    }
-
-}
-
-@media (max-width: 600px){
-    .navigasi{
-        display: none;
-    }
 }
