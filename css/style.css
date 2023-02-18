@@ -416,6 +416,10 @@
     background-color: #171515;
 }
 
+.trigger{
+    display: none;
+}
+
 /*toggle menu*/
 #menu-button{
     width: 70px;

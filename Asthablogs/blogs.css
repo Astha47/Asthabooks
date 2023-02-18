@@ -149,31 +149,6 @@
 
 }
 
-.card img{
-    margin: 0;
-    padding: 0;
-    width: 400px;
-    border-radius: 3px;
-    transition: .2s;
-}
-
-.card{
-    height: 500px;
-    width: 350px;
-    min-width: 350px;
-    margin: 50px;
-    box-shadow: 5px 5px 20px black;
-    font-family: sans-serif;
-    overflow: hidden;
-    transition: .2s;
-    position: relative;
-}
-
-.card:hover{
-    cursor: pointer;
-    transition: .2s;
-}
-
 .intro{
     color: #fff;
     height: 78px;
@@ -186,37 +161,6 @@
     transition: .2s;
 }
 
-.card:hover .intro{
-    bottom: 0px;
-    height: 220px;
-    background: black;
-    transition: .2s;
-}
-
-.intro h1{
-    margin: 10px;
-    font-size: 40px;
-    font-weight: 500;
-}
-
-.intro p{
-    font-size: 20px;
-    margin: 0px 20px;
-    visibility: hidden;
-    opacity: 0;
-    transition: .2s;
-}
-
-.card:hover p{
-    opacity: 1;
-    visibility: visible;
-    transition: .2s;
-}
-
-.card:hover img{
-    transform: scale(1.1);
-    transition: .2s;
-}
 
 .ItemCard a{
     width: 350px;
@@ -416,6 +360,16 @@
     background-color: #171515;
 }
 
+.card{
+    background-color: #d3cedf;
+    width: 70vw;
+    height: 30vw;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    opacity: 85%;
+}
+
 /*toggle menu*/
 #menu-button{
     width: 70px;
@@ -541,11 +495,6 @@
         margin: auto;
         width: 100%;
         transition: .2s;
-    }
-    .card{
-        display: block;
-        margin: auto;
-        margin-top: 50px;
     }
 
     .header_dalam{
