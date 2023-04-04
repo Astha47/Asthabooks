@@ -10,6 +10,9 @@
     height: 100px;
     display: block;
     background-color: #494949;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .header_dalam{
@@ -304,13 +307,13 @@
 }
 
 .sbheader{
-    height: 76px;
+    height: 20px;
 }
 
 .sbmain {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 100px;
+    top: 250px;
     
 }
 
@@ -423,7 +426,10 @@
 /*toggle menu*/
 #menu-button{
     width: 70px;
-    position: absolute;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 150px;
+    bottom: 50px;
     overflow: hidden;    
 }
 
