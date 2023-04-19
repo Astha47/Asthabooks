@@ -9,7 +9,7 @@
     width: 100vw;
     height: 100px;
     display: block;
-    background-color: #494949;
+    background-color: #232530;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -20,7 +20,7 @@
     height: 100%;
     display: block;
     margin: 0 auto;
-    background-color: #6e6e6e;
+    background-color: #2e303e;
     margin-right: 5cm;
 }
 
@@ -242,7 +242,7 @@
 }
 
 .sidebar{
-    background: #999999;
+    background: #4b4c62;
     /*width: 110px;*/
     width: 360px;
     padding: 24px;
@@ -254,7 +254,7 @@
 
 .sidebar.hide {
     width: 118px;
-    background: #999999;
+    background: #312451;
     padding: 24px;
     display: flex;
     box-sizing: border-box;
